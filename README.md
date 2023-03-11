@@ -44,14 +44,13 @@ This project implement 3-tier architecture and follows SOLID principles. So it h
 - **util** directory contains DateTimePatternUtil for working with date type data
 - **resources** directory contains db.properties file for setting connection to DB
 
-## 🔮 How to run the project locally
+## How to run the project locally
 1. Make sure that you have installed JDK 17, TomCat (v.9.0.5) and MySQL;
 2. Clone this repo to you IDE and open it;
 3. Edit db.properties file (resources directory) in which change constants' values to your actual DB connection properties (make sure that you have created a new empty schema with corresponding name in your DB);
 4. Add Tomcat configuration to the project;
 5. Run 'mvn clean package' command in terminal and receive "BUILD SUCCESS" message;
-6. 🏃 Run to "September" song by Earth, Wind & Fire 🙃
 
-#### ✨ HINTS:
+#### HINTS:
 - You can use email: admin@i.ua and password: admin123 to log in as admin
 - You can use Postman for testing this app
